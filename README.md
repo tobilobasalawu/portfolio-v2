@@ -36,7 +36,7 @@ To run this portfolio locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio-v2.git
+   git clone https://github.com/tobilobasalawu/portfolio-v2.git
    ```
 2. Navigate to the project directory:
    ```bash
