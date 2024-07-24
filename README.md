@@ -40,7 +40,7 @@ To run this portfolio locally, follow these steps:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-portfolio-v2
+   cd portfolio-v2
    ```
 3. Open `index.html` in your preferred web browser.
 
