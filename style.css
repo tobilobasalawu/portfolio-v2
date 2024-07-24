@@ -56,7 +56,7 @@ section {
   padding: 20px;
   margin-top: 40px;
   color: RGB(148, 163, 184);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   color: #94A3B8;
 }
@@ -64,7 +64,7 @@ section {
 section p{
   max-width: 500px;
   font-family: Bai Jamjuree;
-  font-weight: 450;
+  font-weight: 400;
 }
 
 .main-box{
@@ -112,5 +112,16 @@ section p{
 }
 
 .footer-section a{
+  text-decoration: none;
+}
+
+#about p{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#about a{
+  font-weight:900;
+  color: white;
   text-decoration: none;
 }
