@@ -45,10 +45,20 @@ navLinks.forEach(link => {
     link.addEventListener("click", event => {
         event.preventDefault();
         const targetId = link.getAttribute("href").substring(1);
-        const targetSection = document.getElementById(targetId);
-        window.scrollTo({
-            top: targetSection.offsetTop,
-            behavior: "smooth"
-        });
+
+        if (targetId === "about") {
+            // Scroll to the top of the page if "about" link is clicked
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        } else {
+            // Scroll to the target section
+            const targetSection = document.getElementById(targetId);
+            window.scrollTo({
+                top: targetSection.offsetTop,
+                behavior: "smooth"
+            });
+        }
     });
 });

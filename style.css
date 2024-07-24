@@ -10,13 +10,15 @@ nav {
   font-weight: 700;
   position: fixed;
   top: 50%;
-  left: 15%;
+  left: 22%;
   transform: translateY(-50%);
   background-color: #0F172A; /* Background color to match the image */
   color: #fff;
   padding: 1rem;
   text-align: right;
   border-radius: 8px 0 0 8px;
+
+  margin-top: 60px;
 }
 nav a {
   display: block;
@@ -53,17 +55,39 @@ section {
   justify-content: flex-start; /* Align items at the start of the container vertically */
   align-items: flex-end; /* Align items at the end of the container horizontally */
   padding: 20px;
+  margin-top: 40px;
+  color: RGB(148, 163, 184);
+  font-size: 16px;
+  font-weight: 400;
+  color: #94A3B8;
 }
 
 section p{
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .main-box{
   margin: 0px 73.5px;
-  padding: 0 96px;
+  padding: 0 250px;
 }
 
-.section-box{
-  padding: 6rem 0 6rem 0;
+.head-section{
+  margin-top: 80px;
+  position: fixed;
+}
+
+.head-section h1{
+  font-family: Bai Jamjuree;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.head-section h2{
+  font-size: 20PX;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+.head-section p{
+  color: RGB(148, 163, 184);
 }
