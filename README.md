@@ -1,5 +1,5 @@
 
-# My Portfolio v2 📚
+# Portfolio v2 📚
 
 Welcome to the Version 2 (v2) of my portfolio! This repository contains the code i used to build my website portfolio. Whether you're a potential employer, collaborator, or just someone interested in my work, I hope you find this portfolio informative and engaging.
 
