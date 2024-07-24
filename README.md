@@ -1,6 +1,5 @@
-# portfolio-v2📚
 
-# My Portfolio v2
+# Portfolio v2 📚
 
 Welcome to the Version 2 (v2) of my portfolio! This repository contains the code i used to build my website portfolio. Whether you're a potential employer, collaborator, or just someone interested in my work, I hope you find this portfolio informative and engaging.
 
@@ -37,11 +36,11 @@ To run this portfolio locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio-v2.git
+   git clone https://github.com/tobilobasalawu/portfolio-v2.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-portfolio-v2
+   cd portfolio-v2
    ```
 3. Open `index.html` in your preferred web browser.
 
