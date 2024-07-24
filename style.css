@@ -6,7 +6,7 @@ body {
 }
 nav {
   font-family: Inter, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   position: fixed;
   top: 50%;
@@ -20,11 +20,12 @@ nav {
 }
 nav a {
   display: block;
-  margin: 1rem 0;
+  margin: 1.3rem 0;
   color: #8892b0; /* Gray color for inactive links */
   text-decoration: none;
   position: relative; /* Position relative for the underline */
   padding-bottom: 0.2rem; /* Space for underline */
+  padding-left: 10px;
   transition: all 0.3s ease; /* Transition for smooth effect */
 }
 nav a::before {
