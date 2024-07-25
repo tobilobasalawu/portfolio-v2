@@ -129,20 +129,24 @@ section p{
   margin-top: 35px;
 }
 
-#experience div{
+#experience{
+  gap: 30px;
+} 
+
+#experience .exp-box{
   display: flex;
   justify-content: center;
   align-items:first baseline;
 }
 
-#experience div .date{
+#experience .exp-box .date{
   font-size: .75rem;
   font-weight: 600;
   font-family: Inter, sans-serif;
   margin-right: 25px;
 }
 
-#experience div a{
+#experience .exp-box a{
   font-size: 1rem;
   font-family: Bai Jamjuree, sans-serif;
   font-weight: 600;
@@ -151,15 +155,33 @@ section p{
   text-decoration: none;
 }
 
-#experience div a:hover{
+#experience .exp-box a:hover{
   color: #64ffda;
 }
 
-#experience div .exp-description{
-  max-width: 375px;
+.exp-description{
+  max-width: 300px;
   margin-top: 6px;
   font-size: 15px;
 }
 
+.tag {
+  display: inline-block;
+  background-color: rgba(45, 212, 191, .1);
+  font-weight: 500;
+  font-size: .75rem;
+  padding: .25rem .75rem .25rem .75rem;
+  color: rgb(94 234 212);
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
 
+.tags{
+  max-width: 375px;
+}
+
+.exp-box img{
+  width: 18px;
+  vertical-align: middle;
+}
 
