@@ -1,3 +1,5 @@
+@import "style2";
+
 body {
   font-family: Inter, sans-serif;
   scroll-behavior: smooth; /* Smooth scroll behavior */
@@ -60,8 +62,9 @@ section {
   color: #94A3B8;
 }
 
+
 section p{
-  max-width: 500px;
+  max-width: 520px;
   font-family: Bai Jamjuree;
   font-weight: 400;
 }
@@ -137,13 +140,14 @@ section p{
   display: flex;
   justify-content: center;
   align-items:first baseline;
+
 }
 
 #experience .exp-box .date{
   font-size: .75rem;
   font-weight: 600;
   font-family: Inter, sans-serif;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 #experience .exp-box a{
@@ -160,7 +164,7 @@ section p{
 }
 
 .exp-description{
-  max-width: 300px;
+  max-width: 400px;
   margin-top: 6px;
   font-size: 15px;
 }
@@ -184,4 +188,58 @@ section p{
   width: 18px;
   vertical-align: middle;
 }
+
+
+#projects .proj-box{
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+
+  gap: 15px;
+}
+
+.image-link img{
+  width: 130px;
+  border-radius: 3px;
+}
+
+#projects{
+  gap: 30px;
+} 
+
+
+#projects .proj-box a:hover{
+  color: #64ffda;
+}
+
+.proj-description{
+  max-width: 300px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: rgba(45, 212, 191, .1);
+  font-weight: 500;
+  font-size: .75rem;
+  padding: .25rem .75rem .25rem .75rem;
+  color: rgb(94 234 212);
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.tags{
+  max-width: 375px;
+}
+
+#projects h2{
+  font-size: 1rem;
+  font-family: Bai Jamjuree, sans-serif;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
 
