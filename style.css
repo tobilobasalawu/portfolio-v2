@@ -48,13 +48,12 @@ nav a.active::before {
 }
 
 section {
-  height: 100vh; /* Each section takes full viewport height */
+  height: 50vh; /* Each section takes full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Align items at the start of the container vertically */
   align-items: flex-end; /* Align items at the end of the container horizontally */
   padding: 20px;
-  margin-top: 40px;
   color: RGB(148, 163, 184);
   font-size: 17px;
   font-weight: 400;
@@ -125,3 +124,42 @@ section p{
   color: white;
   text-decoration: none;
 }
+
+#about{
+  margin-top: 35px;
+}
+
+#experience div{
+  display: flex;
+  justify-content: center;
+  align-items:first baseline;
+}
+
+#experience div .date{
+  font-size: .75rem;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  margin-right: 25px;
+}
+
+#experience div a{
+  font-size: 1rem;
+  font-family: Bai Jamjuree, sans-serif;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+#experience div a:hover{
+  color: #64ffda;
+}
+
+#experience div .exp-description{
+  max-width: 375px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+
+
