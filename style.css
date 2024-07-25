@@ -57,7 +57,7 @@ section {
   align-items: flex-end; /* Align items at the end of the container horizontally */
   padding: 20px;
   color: RGB(148, 163, 184);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   color: #94A3B8;
 }
@@ -298,4 +298,13 @@ section p{
 
 .cool-button:hover .arrow-icon {
   transform: translateX(5px);
+}
+
+.ending-text p{
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+}
+
+.ending-text{
+  margin-top: 50px;
 }
