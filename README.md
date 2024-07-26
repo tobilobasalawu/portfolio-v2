@@ -75,3 +75,5 @@ You can reach me via:
 - [X (Twitter)](https://x.com/SalawuToby)
 - [GitHub](https://github.com/tobilobasalawu)
 - [Email](mailto:tobisal.dev@gmail.com)
+
+Built with HTML, CSS, and JavaScript. Coded in Visual Studio Code. Deployed on Vercel. The design and structure were inspired by the work of [Brittany Chiang](https://github.com/bchiang7).
