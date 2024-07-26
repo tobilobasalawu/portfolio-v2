@@ -328,19 +328,43 @@ section p{
     padding: 0px 130px;
   }
 
+  nav{
+    margin-top: 30px;
+  }
+
   .footer-section{
-    margin-top: 360px;
+    margin-top: 300px;
+  }
+
+  #projects{
+    margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 1400px){
   .main-box{
     margin: 0px 0px;
-    padding: 0px 94px;
+    padding: 0px 90px;
+  }
+
+  nav{
+    margin-top: 50px;
+  }
+
+  #experience{
+    margin-top: 30px;
   }
 
   .footer-section{
-    margin-top: 350px;
+    margin-top: 300px;
+  }
+
+  .leftbox-head-section{
+    margin: 0;
+  }
+
+  #projects{
+    margin-top: 100px;
   }
 
 }
@@ -353,6 +377,10 @@ section p{
 
   .footer-section{
     margin-top: 330px;
+  }
+
+  .cool-button{
+    opacity: 0;
   }
 }
 
@@ -388,7 +416,7 @@ section p{
 
   section {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -404,7 +432,7 @@ section p{
   }
 
   #about{
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .exp-box{
@@ -498,7 +526,7 @@ section p{
 
   section {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -514,7 +542,7 @@ section p{
   }
 
   #about{
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .exp-box{
@@ -608,7 +636,7 @@ section p{
 
   section {
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -632,7 +660,7 @@ section p{
   }
 
   #experience{
-    margin: 0;
+    margin-top: 20px;
   }
 
   .exp-description, .proj-description {
@@ -718,7 +746,7 @@ section p{
 
   section {
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -828,7 +856,7 @@ section p{
 
   section {
     width: 100%;
-    height: 85vh;
+    height: 165vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -844,7 +872,7 @@ section p{
   }
 
   #about{
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 
   .exp-box{
@@ -939,7 +967,7 @@ section p{
 
   section {
     width: 100%;
-    height: 92vh;
+    height: 330vh;
     display: flex;
     flex-direction: column;
     justify-content: left;
