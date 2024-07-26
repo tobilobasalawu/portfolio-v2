@@ -127,7 +127,6 @@ section p{
 
 #experience{
   gap: 30px;
-  margin-bottom: 30px;
 } 
 
 #experience .exp-box{
@@ -333,7 +332,7 @@ section p{
   }
 
   nav{
-    margin-left: 110px;
+    margin-left: 100px;
   }
 }
 
@@ -367,6 +366,8 @@ section p{
 }
 
 @media screen and (max-width: 1600px){
+  
+
   .main-box{
     margin: 0px 50px;
     padding: 0px 130px;
@@ -381,11 +382,13 @@ section p{
   }
 
   #projects{
-    margin-top: 30px;
+    margin-top: 120px;
   }
 }
 
 @media screen and (max-width: 1400px){
+  
+  
   .main-box{
     margin: 0px 0px;
     padding: 0px 90px;
@@ -393,6 +396,7 @@ section p{
 
   nav{
     margin-top: 50px;
+    margin-left: 40px;
   }
 
   #experience{
@@ -408,7 +412,7 @@ section p{
   }
 
   #projects{
-    margin-top: 100px;
+    margin-top: 170px;
   }
 
 }
@@ -430,6 +434,7 @@ section p{
 }
 
 @media screen and (max-width: 1180px){
+
   body {
     display: flex;
     flex-direction: column;
@@ -497,7 +502,7 @@ section p{
     font-size: .75rem;
     font-weight: 600;
     font-family: Inter, sans-serif;
-    margin-right: 0px;
+    margin-right: 50px;
     display: inline-block;
   }
 
@@ -717,7 +722,7 @@ section p{
     font-size: .75rem;
     font-weight: 600;
     font-family: Inter, sans-serif;
-    margin-right: 0px;
+    margin-right: 30px;
     display: inline-block;
   }
 
@@ -827,7 +832,7 @@ section p{
     font-size: .75rem;
     font-weight: 600;
     font-family: Inter, sans-serif;
-    margin-right: 0px;
+    margin-right: 30px;
     display: inline-block;
   }
 
@@ -981,7 +986,6 @@ section p{
 
 @media screen and (max-width: 400px){
   body {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1048,7 +1052,7 @@ section p{
     font-size: .75rem;
     font-weight: 600;
     font-family: Inter, sans-serif;
-    margin-right: 0px;
+    margin-right: 40px;
     display: inline-block;
   }
 
@@ -1056,7 +1060,7 @@ section p{
     font-size: .75rem;
     font-weight: 400;
     font-family: Inter, sans-serif;
-    margin-right: 80px;
+    margin-right: 60px;
     display: inline-block;
   }
 
@@ -1076,7 +1080,7 @@ section p{
   }
 
   #projects{
-    margin-top: 310px;
+    margin-top: 200px;
   }
 
 
