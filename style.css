@@ -127,6 +127,7 @@ section p{
 
 #experience{
   gap: 30px;
+  margin-bottom: 30px;
 } 
 
 #experience .exp-box{
@@ -261,8 +262,6 @@ section p{
   position: absolute;
   top: 0;
   left: -100%;
-  width: 100%;
-  height: 100%;
   background: #000;
   border-radius: 5px;
   z-index: 0;
@@ -308,10 +307,55 @@ section p{
   color: white;
 }
 
+.proj-link a{
+  font-size: 1rem;
+  font-family: Bai Jamjuree, sans-serif;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}
+
+.proj-link a:hover{
+  color: #64ffda;
+}
+
+.proj-link img{
+  width: 18px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 2600px){
+  .main-box{
+    background-color: #0F172A;
+    margin: 0px 100px;
+    padding: 0 390px;
+  }
+
+  nav{
+    margin-left: 110px;
+  }
+}
+
+@media screen and (max-width: 2500px){
+  .main-box{
+    margin: 0px 100px;
+    padding: 0 390px;
+  }
+
+  nav{
+    margin-left: 110px;
+  }
+}
+
 @media screen and (max-width: 2000px){
   .main-box{
     margin: 0px 73.5px;
     padding: 0 250px;
+  }
+
+  #experience{
+    margin-bottom: 50px;
   }
 }
 
@@ -370,6 +414,7 @@ section p{
 }
 
 @media screen and (max-width: 1200px){
+
   .main-box{
     margin: 0px 20px;
     padding: 0px 35px;
