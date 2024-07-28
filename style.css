@@ -371,7 +371,7 @@ section p{
 }
 
 @media screen and (max-width: 1600px){
-  
+
 
   .main-box{
     margin: 0px 50px;
@@ -379,7 +379,7 @@ section p{
   }
 
   nav{
-    margin-top: 30px;
+    margin-top: -50px;
   }
 
   .footer-section{
@@ -400,7 +400,6 @@ section p{
   }
 
   nav{
-    margin-top: 50px;
     margin-left: 40px;
   }
 
